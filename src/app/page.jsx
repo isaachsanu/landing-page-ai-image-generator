@@ -1,25 +1,11 @@
 import Image from "next/image";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
     <>
       <main className="bg-primary overflow-hidden">
-        <div className="flex row items-center justify-between py-8 px-12 bg-primary">
-          <div className="text-2xl text-white font-montserrat font-bold">
-            PixGenerator
-          </div>
-          <div className="hidden lg:flex row items-center gap-4 text-base font-lato font-bold">
-            <div className="text-white px-6 py-4 rounded-2xl">FAQ</div>
-            <div className="text-white px-6 py-4 rounded-2xl">About Us</div>
-            <div className="text-white px-6 py-4 rounded-2xl">Pricing</div>
-            <div className="text-white border border-gray-500 border-solid px-6 py-4 border-4 rounded-2xl">
-              Start Using AI
-            </div>
-          </div>
-          <div className="block lg:hidden">
-            <Image src="/images/menu_icon.png" width={48} height={48} />
-          </div>
-        </div>
+        <Navbar />
         <div className="w-full bg-contain bg-no-repeat bg-[url('./images/bg_cover_1280px.jpg')]">
           <div className="h-[80vh] flex items-center justify-center bg-gradient-to-b from-primary/85 from-60%">
             <div className="w-full max-w-screen-lg">
