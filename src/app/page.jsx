@@ -8,13 +8,16 @@ export default function Home() {
           <div className="text-2xl text-white font-montserrat font-bold">
             PixGenerator
           </div>
-          <div className="flex row items-center gap-4 text-base font-lato font-bold">
+          <div className="hidden lg:flex row items-center gap-4 text-base font-lato font-bold">
             <div className="text-white px-6 py-4 rounded-2xl">FAQ</div>
             <div className="text-white px-6 py-4 rounded-2xl">About Us</div>
             <div className="text-white px-6 py-4 rounded-2xl">Pricing</div>
             <div className="text-white border border-gray-500 border-solid px-6 py-4 border-4 rounded-2xl">
               Start Using AI
             </div>
+          </div>
+          <div className="block lg:hidden">
+            <Image src="/images/menu_icon.png" width={48} height={48} />
           </div>
         </div>
         <div className="w-full bg-contain bg-no-repeat bg-[url('./images/bg_cover_1280px.jpg')]">
@@ -193,7 +196,7 @@ export default function Home() {
             <Image src="/images/facebook_24.png" width={16} height={16} />
             <Image src="/images/instagram_24.png" width={16} height={16} />
           </div>
-          <div className="absolute inset-x-0 mx-auto text-center text-base font-montserrat font-bold">
+          <div className="hidden xl:block absolute inset-x-0 mx-auto text-center text-base font-montserrat font-bold">
             <span>PixGenerator</span>
           </div>
           <div className="flex items-center text-xs">
