@@ -99,7 +99,7 @@ export default function Home() {
                       At PixGenerator, we believe that creativity knows no
                       bounds. Join our thriving community of artists, designers,
                       and innovators who share your passion for visual
-                      storytelling. Together, we're redefining the future of
+                      storytelling. Together, we&apos;re redefining the future of
                       image generation and design.
                     </p>
                   </div>
@@ -114,7 +114,7 @@ export default function Home() {
             <div className="relative flex flex-row items-center justify-between px-32 py-12">
               <div className="z-10 w-[640px]">
                 <div className="font-bold text-4xl font-montserrat mb-4">Your Ideas Come to Life</div>
-                <p>Unleash your imagination's full potential. Let AI work its magic, turning your ideas into mesmerizing visuals that tell your story.</p>
+                <p>Unleash your imagination&apos;s full potential. Let AI work its magic, turning your ideas into mesmerizing visuals that tell your story.</p>
               </div>
               <div className="z-10">
                 <button className="px-12 py-4 rounded-2xl text-[20px] font-lato font-bold text-base bg-black">
@@ -130,7 +130,7 @@ export default function Home() {
         <div className="flex flex-row justify-between pt-32 pb-16 px-12">
           <div className="flex flex-col gap-2 w-[360px]">
             <div className="font-montserrat font-bold text-[20px] text-white">
-              Don't miss our latest news
+              Don&apos;t miss our latest news
             </div>
             <div className="flex flex-row justify-between p-2 pl-4 rounded-2xl bg-white text-sm">
               <input type="text" placeholder="Write your email here" />
